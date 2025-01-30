@@ -6,6 +6,18 @@
 
 .container{
     header{
+        a{
+            span{
+                padding: 0rem 1rem 0rem 1rem;
+            }
+            .goldsmith_logo{
+                width:10rem;
+            }
+            .enrich_logo{
+                width: 16rem;
+                margin: 1rem 0rem 0rem 0rem;
+            }
+        }
 ul{
     .nav-item{
         margin: 8px 8px;

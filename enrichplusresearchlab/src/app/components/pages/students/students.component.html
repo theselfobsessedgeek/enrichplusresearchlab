@@ -1,1 +1,34 @@
-<p>students works!</p>
+<div class="container">
+    <div class="hero-section">
+        <div
+          class="d-flex min-vh-100"
+          lc-helper="background"
+          style="
+            background: url(assets/images/lecture.png) center / cover no-repeat;
+            background-color: #444;
+            background-blend-mode: overlay;
+          "
+        >
+          <div
+            class="align-self-center text-center text-light col-md-8 offset-md-2"
+          >
+            <div class="lc-block mb-4">
+              <div editable="rich">
+                <h1 class="display-1 fw-bolder">Students</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="student-card-container">
+        <div class="card" *ngFor="let student of students">
+          <div class="card-border-top"></div>
+          <img width="50rem" [src]="student.image" [alt]="student.name" class="student-img">
+          <span>{{ student.name }}</span>
+          <p class="job">{{ student.job }}</p>
+          <!-- <button>Click</button> -->
+        </div>
+      </div>
+      
+</div>
