@@ -1,17 +1,21 @@
 .container{
     .definition{
-        .lines{
+ .lines{
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
+            
         }
     }
-
+.compartment{
+  justify-content: center;
+  display: flex
+;
     .intro_card{
-        width: 100%;
+        width: 80%;
         margin-top: 2rem;
- .card{
+ .card123{
     --bs-card-border-color: transparent;
  }
 .card p {
@@ -22,7 +26,7 @@
   }
   
   .card p.small {
-    font-size: 14px;
+    font-size: 18px;
   }
   
   .go-corner {
@@ -35,7 +39,7 @@
     overflow: hidden;
     top: 0;
     right: 0;
-    background-color: #00838d;
+    background-color: #5e5f60;
     border-radius: 0 4px 0 32px;
   }
   
@@ -50,7 +54,7 @@
     display: block;
     position: relative;
     width: 100%;
-    background-color: #f2f8f9;
+    background-color: #d9dbdb;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
@@ -65,7 +69,7 @@
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: #00838d;
+    background: #5e5f60;
     height: 32px;
     width: 32px;
     border-radius: 32px;
@@ -93,14 +97,14 @@
     top: 0px;
     position: relative;
     width: 100%;
-    background-color: #f2f8f9;
+    background-color: #d9dbdb;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-    border: 1px solid #f2f8f9;
+    border: 1px solid #d9dbdb;
   }
   
   .card2:hover {
@@ -117,7 +121,7 @@
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: #00838d;
+    background: #5e5f60;
     height: 32px;
     width: 32px;
     border-radius: 32px;
@@ -135,13 +139,13 @@
     top: 0px;
     position: relative;
     width: 100%;
-    background-color: #f2f8f9;
+    background-color: #d9dbdb;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
     text-decoration: none;
     overflow: hidden;
-    border: 1px solid #f2f8f9;
+    border: 1px solid #d9dbdb;
   }
   
   .card3 .go-corner {
@@ -149,13 +153,13 @@
   }
   
   .card3:hover {
-    border: 1px solid #00838d;
+    border: 1px solid #5e5f60;
     box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
     z-index: 500;
   }
   
   .card3:hover p {
-    color: #00838d;
+    color: #5e5f60;
   }
   
   .card3:hover .go-corner {
@@ -178,7 +182,7 @@
   }
   
   .card4 .go-corner {
-    background-color: #00838d;
+    background-color: #5e5f60;
     height: 100%;
     width: 16px;
     padding-right: 9px;
@@ -212,4 +216,10 @@
     opacity: 1;
   }
     }
+  }
+
+  .explain{
+    margin: 2rem;
+    font-size: 18px;
+  }
 }

@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
+  
+  words: string[] = [
+    'Emotive Analytics',
+    'Natural Language Processing',
+    'Research in AI',
+    'Intelligent Computing',
+    'Community Health',
+    'Healthcare Technologies',
+    '+ Advanced Analytics'
+  ];
+ 
 }
